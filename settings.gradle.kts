@@ -21,3 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "SignaturePad Compose"
 include(":app")
+include(":SignaturePad")
