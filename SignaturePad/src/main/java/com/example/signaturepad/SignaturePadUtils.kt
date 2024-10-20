@@ -6,7 +6,7 @@ import android.util.Log
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 
-object DLSignaturePadUtils {
+object SignaturePadUtils {
     private val TAG: String = this::class.java.name
 
     /**

@@ -32,8 +32,8 @@ import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.dp
 
 @Composable
-fun DLSignaturePad(
-    state: DLSignaturePadState,
+fun SignaturePad(
+    state: SignaturePadState,
     modifier: Modifier = Modifier,
     signatureColor: Color = Color.Black,
     signatureThickness: Dp = 6.dp,
@@ -169,7 +169,7 @@ private fun toImageBitmap(
  * A state holder class for managing the signature pad state.
  */
 @Stable
-class DLSignaturePadState {
+class SignaturePadState {
     var signaturePath by mutableStateOf(Path())
         private set
     var signatureBitmap by mutableStateOf<ImageBitmap?>(null)
